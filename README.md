@@ -47,7 +47,7 @@ gem 'pg', group: :production
 3. `config/database.yml`の`production`の項目を下記のように修正
 ```
 production:
-  &lt;&lt;: *default
+  <<: *default
   adapter: postgresql
   encoding: unicode
   pool: 5
