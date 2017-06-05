@@ -8,8 +8,9 @@
 #### 仮想環境の作成
 1. `git clone https://github.com/admjgptw1357/vagrant_ruby_on_rails`
 2. `cd vagrant_ruby_on_rails`
-3. `vagrant up`
-4. `vagrant ssh`
+3. `rm -irf .git`
+4. `vagrant up`
+5. `vagrant ssh`
 
 これで、rubyなどの環境がセットアップされている仮想環境にアクセスできるように
 
@@ -23,7 +24,8 @@ herokuでアカウントを作成。
 
 #### Railsアプリケーション作成
 **HerokuApp**というアプリケーションを作ることを前提として作成。また、サンプル用にpost用のサーバーを作成
-1. `cd /vagrant`したあとに、`mkdir アプリケーションディレクトリ`
+このvagrantの設定上、このアプリケーションディレクトリは、cloneしたディレクトリと共有しているため、cloneしたディレクトリで編集することができる（好きなエディタで開ける）
+1. `cd /vagrant`したあとに、`mkdir アプリケーションディレクトリ`そして、`cd アプリケーションディレクトリ`
 2. `rails new HerokuApp`
 3. `cd HerokuApp`
 4. `rails generate scaffold post title:string body:string`
