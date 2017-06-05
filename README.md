@@ -116,6 +116,6 @@ gitのアカウントを持っていない人は新しく作る。
 
 ここでこけるのであれば、`bin`以下の全てのファイルの先頭行を`#!/usr/bin/env ruby2.4`から`#!/usr/bin/env ruby`にすると動くかも
 
-http://サーバー名.herokuapp.com/ にアクセスしてpostできるか確認。
+http://サーバー名.herokuapp.com/ にアクセスしてhogeが表示されているか確認。
 
 
