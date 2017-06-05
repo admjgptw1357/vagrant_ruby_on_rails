@@ -58,7 +58,7 @@ gitのアカウントを持っていない人は新しく作る。
 
 1. `heroku create サーバー名`でサーバーを作る（長くしないと被るので適当に長い文字列で）
 2. `git init`
-3. `git heroku git:remote -a サーバー名`
+3. `heroku git:remote -a サーバー名`
 4. `git add .`
 5. `git commit -m "initial commit"`
 6. `git push heroku master`
