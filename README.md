@@ -36,8 +36,8 @@ herokuでアカウントを作成。
 1. `Gemfile`を下記のように修正
 
 ```
-gem `sqlite3`, group: :development
-gem `pg`, group: :production
+gem 'sqlite3', group: :development
+gem 'pg', group: :production
 ```
 
 2. `bundle install`
