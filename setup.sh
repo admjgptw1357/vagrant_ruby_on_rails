@@ -49,7 +49,7 @@ gem install mail --version 2.6.4
 gem install mime-types --version 3.1
 gem install mime-types-data --version 3.2016.0521
 gem install mini_portile2 --version 2.1.0
-gem install minitest --version 5.9.0, 5.4.3
+gem install minitest --version 5.9.0
 gem install multi_json --version 1.12.1
 gem install net-ssh --version 2.9.2
 gem install net-ssh-gateway --version 1.2.0
