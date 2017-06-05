@@ -29,7 +29,7 @@ Vagrant.configure("2") do |config|
   # within the machine from a port on the host machine and only allow access
   # via 127.0.0.1 to disable public access
   config.vm.network "forwarded_port", guest: 80, host: 8080, host_ip: "127.0.0.1"
-  config.vm.provision :shell, :inline => "apt-get update -q && cd /vagrant && ./setup.sh"
+  config.vm.provision :shell, :inline => "apt-get update -q && cd /vagrant && sh ./setup.sh"
 
   # Create a private network, which allows host-only access to the machine
   # using a specific IP.

@@ -3,8 +3,6 @@ sudo apt update
 sudo apt install ruby2.4 ruby2.4-dev
 sudo apt -y install nodejs libcurl4-openssl-dev apache2-dev libapr1-dev libaprutil1-dev libxml2 libxslt-dev build-essential patch libssl-dev
 sudo apt -y install sqlite3 libsqlite3-dev
-sudo gem install rails -v "4.0"
-sudo gem install bundler
 
 gem install actionmailer --version 4.2.6
 gem install actionpack --version 4.2.6
