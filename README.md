@@ -30,7 +30,7 @@ herokuでアカウントを作成。
 5. `bundle exec rake db:migrate`
 6. `rails s`
 
-でhttp://localhost/posts でアクセスできるかどうかテスト。
+でhttp://192.168.33.10:3000/posts でアクセスできるかどうかテスト。
 
 #### デプロイ用のファイル修正
 1. `Gemfile`を下記のように修正
