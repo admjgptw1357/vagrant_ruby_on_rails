@@ -97,3 +97,10 @@ gem install uglifier --version 3.0.0
 gem install web-console --version 2.3.0
 gem install will_paginate --version 3.0.7
 
+sudo apt-get install software-properties-common
+sudo add-apt-repository "deb https://cli-assets.heroku.com/branches/stable/apt ./"
+curl -fL https://cli-assets.heroku.com/apt/release.key | sudo apt-key add -
+sudo apt-get update
+sudo apt-get install heroku
+
+
