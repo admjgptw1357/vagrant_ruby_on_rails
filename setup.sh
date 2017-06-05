@@ -1,8 +1,9 @@
-sudo apt-add-repository ppa:brightbox/ruby-ng
+sudo apt-add-repository -y ppa:brightbox/ruby-ng
 sudo apt update
-sudo apt install ruby2.4 ruby2.4-dev
 sudo apt -y install nodejs libcurl4-openssl-dev apache2-dev libapr1-dev libaprutil1-dev libxml2 libxslt-dev build-essential patch libssl-dev
 sudo apt -y install sqlite3 libsqlite3-dev
+sudo apt -y install ruby2.4 ruby2.4-dev
+sudo apt -y install postgresql libpq-dev
 
 gem install actionmailer --version 4.2.6
 gem install actionpack --version 4.2.6
@@ -38,10 +39,10 @@ gem install heroku --version 3.43.3
 gem install heroku-api --version 0.4.2
 gem install hike --version 1.2.3
 gem install i18n --version 0.7.0
-gem install io-console --version 0.4.3
+gem install io-console
 gem install jbuilder --version 2.5.0
 gem install jquery-rails --version 3.1.4
-gem install json --version 1.8.3
+gem install json
 gem install launchy --version 2.4.3
 gem install loofah --version 2.0.3
 gem install mail --version 2.6.4
