@@ -37,7 +37,7 @@ herokuでアカウントを作成したあと、下記のコマンドを実行�
 1. `cd /vagrant`したあとに、`mkdir アプリケーションディレクトリ`そして、`cd アプリケーションディレクトリ`
 2. `rails new HerokuApp`
 3. `cd HerokuApp`
-4. `cat "hoge" > public/index.html`
+4. `echo "hoge" > public/index.html`
 5. `bundle exec rake db:migrate`
 6. `rails s`
 
