@@ -53,6 +53,8 @@ production:
   pool: 5
 ```
 
+4. `bin`以下の全てのファイルの先頭行を`#!/usr/bin/env ruby2.4`から`#!/usr/bin/env ruby`にする
+
 #### herokuへのデプロイとgit
 gitのアカウントを持っていない人は新しく作る。
 
@@ -64,7 +66,6 @@ gitのアカウントを持っていない人は新しく作る。
 6. `git push heroku master`
 7. `heroku run:detached rake db:migrat`
 
-ここでこけるのであれば、`bin`以下の全てのファイルの先頭行を`#!/usr/bin/env ruby2.4`から`#!/usr/bin/env ruby`にすると動くかも
 
 http://サーバー名.herokuapp.com/ にアクセスしてhogeが表示されているか確認。
 
