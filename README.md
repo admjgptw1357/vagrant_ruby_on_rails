@@ -73,7 +73,7 @@ gitのアカウントを持っていない人は新しく作る。
 4. `git commit -m "initial commit"`
 5. `heroku git:remote -a サーバー名`
 6. `git push heroku master`
-7. `heroku run:detached rake db:migrat`
+7. `heroku run:detached rake db:migrate`
 
 
 http://サーバー名.herokuapp.com/ にアクセスしてhogeが表示されているか確認。
@@ -91,7 +91,7 @@ http://サーバー名.herokuapp.com/ にアクセスしてhogeが表示され�
 5. `rails s`でサーバーの立ち上げ
 6. 期待通りの動きをしているか確認
 7. gitでそれをherokuにpush（上参照のこと）
-8. `heroku run:detached rake db:migrat`してherokuで動くように
+8. `heroku run:detached rake db:migrate`してherokuで動くように
 9. herokuで動いているか確認
 10. 閉じるときは`vagrant halt`
 
